@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Container = styled.div`
+const App = styled.div`
   background: red;
   height: 10px;
   left: 0;
@@ -9,11 +9,5 @@ const Container = styled.div`
   top: 0;
   width: calc(100% - 10px);
 `;
-
-const App = () => {
-  return (
-    <Container />
-  );
-};
 
 export default App;
